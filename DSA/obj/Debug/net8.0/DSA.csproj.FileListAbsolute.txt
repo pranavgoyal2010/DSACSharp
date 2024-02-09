@@ -1,0 +1,14 @@
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\bin\Debug\net8.0\DSA.exe
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\bin\Debug\net8.0\DSA.deps.json
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\bin\Debug\net8.0\DSA.runtimeconfig.json
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\bin\Debug\net8.0\DSA.dll
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\bin\Debug\net8.0\DSA.pdb
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\DSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\DSA.AssemblyInfoInputs.cache
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\DSA.AssemblyInfo.cs
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\DSA.csproj.CoreCompileInputs.cache
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\DSA.dll
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\refint\DSA.dll
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\DSA.pdb
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\DSA.genruntimeconfig.cache
+C:\Users\prana\Desktop\BridgeLabz\DataStructuresAlgorithmsCSharp\DSA\obj\Debug\net8.0\ref\DSA.dll
