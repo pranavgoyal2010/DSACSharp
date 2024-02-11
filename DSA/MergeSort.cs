@@ -13,12 +13,12 @@ class MergeSort
         this.words = words;
     }
 
-    public void Sort(string[] words)
+    public void Sort()
     {
         
-        string[] temp = new string[words.Length];
+        string[] temp = new string[this.words.Length];
 
-        Sort(words, 0, words.Length-1, temp);
+        Sort(this.words, 0, this.words.Length-1, temp);
     }
 
     public void Sort(string[] words, int left, int right, string[] temp)
