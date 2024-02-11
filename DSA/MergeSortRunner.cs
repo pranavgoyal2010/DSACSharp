@@ -5,7 +5,7 @@ namespace DSA;
 
 class MergeSortRunner
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         //string[] words = { "hello", "how", "are", "you", "today" };
         string[] words = { "hello", "how", "are", "you", "today", "evening", "it", "is", "sunny", "today" };

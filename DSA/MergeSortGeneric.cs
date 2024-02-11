@@ -2,6 +2,16 @@
 using System.Collections.Generic;
 
 
+/**
+ * 
+ *  In this corrected implementation:
+
+    We use the IComparer<T> interface to compare elements of type T.
+    The Comparer<T>.Default is used as the default comparer. It will use the implementation of IComparable<T> if available, or fallback to other comparison mechanisms if not.
+    We use the comparer.Compare method to compare elements instead of relying on the CompareTo method. This allows for more flexibility in handling comparison logic for different types.
+ */
+
+
 namespace DSA;
 
 class MergeSortGeneric<T>
