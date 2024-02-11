@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace DSA;
 class BinarySearch
 {
-    private ArrayList words;
+    private string[] words;
 
-    public BinarySearch(ArrayList words)
+    public BinarySearch(string[] words)
     {
         this.words = words;
     }
@@ -18,21 +18,22 @@ class BinarySearch
     public int Search(string target)
     {
 
-        this.words.Sort();
+        Array.Sort(this.words);
         Console.WriteLine();
         Console.WriteLine("After sorting the words are : ");
-        for (int i=0; i<this.words.Count; i++)
+        
+        foreach (string word in this.words)
         {
-            Console.WriteLine(this.words[i]);
+            Console.WriteLine(word);
         }
 
-        int start = 0, end = this.words.Count-1;
+        int start = 0, end = this.words.Length-1;
         
         while(start<=end)
         {
             int mid = start + ((end - start) / 2);
             
-            string wordAtMid = (string)this.words[mid];
+            string wordAtMid = this.words[mid];
             int compare = string.Compare(wordAtMid, target);
             
             if (compare==0)
