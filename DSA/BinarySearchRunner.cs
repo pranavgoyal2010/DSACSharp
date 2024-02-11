@@ -5,7 +5,7 @@ namespace DSA;
 
 class BinarySearchRunner
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         string filePath = "words.txt";
 
