@@ -23,7 +23,7 @@ class Anagram
             freq[word1[i]]++;
         }
 
-        for (int i = 0; i < word1.Length; i++)
+        for (int i = 0; i < word2.Length; i++)
         {
             freq[word2[i]]--;
         }
