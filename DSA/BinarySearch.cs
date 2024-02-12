@@ -35,7 +35,7 @@ class BinarySearch
             
             string wordAtMid = this.words[mid];
             int compare = string.Compare(wordAtMid, target);
-            
+            //int compare = wordAtMid.CompareTo(target);
             if (compare==0)
             {
                 return mid;

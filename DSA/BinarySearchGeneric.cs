@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 
@@ -49,4 +50,5 @@ class BinarySearchGeneric<T>
         return -1;
         
     }
+
 }

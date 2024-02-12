@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace DSA;
@@ -98,8 +99,12 @@ class BinarySearchRunner
 
         List<Student> Students = new List<Student> { s1, s2, s3, s4, s5, s6 };
 
-        BinarySearchGeneric<Student> binarySearchGeneric3 = new BinarySearchGeneric<Student>(Students);
-        index = binarySearchGeneric3.Search(s6);
+        //BinarySearchGeneric<Student> binarySearchGeneric3 = new BinarySearchGeneric<Student>(Students);
+        //index = binarySearchGeneric3.Search(s6);
+
+
+        index = Search(Students, s6);
+
 
         foreach (Student S in Students)
         {
@@ -110,5 +115,33 @@ class BinarySearchRunner
             Console.WriteLine("student not found");
         else
             Console.WriteLine("student found at index : " + index);
+    }
+
+    public static int Search<T>(List<T> elements, T itemToSearch) where T : IComparable<T>
+    {
+        elements.Sort();
+        int start = 0, end = elements.Count - 1;
+
+        while (start <= end)
+        {
+            int mid = (start + end) / 2;
+            int comparison = elements[mid].CompareTo(itemToSearch);
+
+            if (comparison == 0)
+            {
+                return mid;
+            }
+            else if (comparison > 0)
+            {
+                end = mid - 1;
+            }
+            else
+            {
+                start = mid + 1;
+            }
+
+        }
+
+        return -1;
     }
 }
