@@ -6,10 +6,12 @@ namespace DSA;
 
 class Anagram
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         string s1 = Console.ReadLine();
         string s2 = Console.ReadLine();
+
+        LinkedList<string> list = new LinkedList<string>();
 
         Console.WriteLine(isAnagram(s1, s2));
     }
