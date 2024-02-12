@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -9,7 +10,7 @@ namespace DSA;
 
 class Prime
 {
-    public static void Main(string[] args)
+    public static void Main1(string[] args)
     {
         List<int> ints = allPrime();
 
@@ -43,4 +44,9 @@ class Prime
         }
         return list;
     }
+
+    /*public static List<int> allAnagram(List<int> ints)
+    {
+
+    }*/
 }
