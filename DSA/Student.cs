@@ -15,13 +15,13 @@ class Student : IComparable<Student>
 
     public int CompareTo(Student other)
     {
-        /*if (this.Sid > other.Sid)
+        if (this.Sid > other.Sid)
             return 1;
         else if (this.Sid < other.Sid)
             return -1;
         else
-            return 0;*/
+            return 0;
 
-        return this.Name.CompareTo(other.Name);
+        //return this.Name.CompareTo(other.Name);
     }
 }

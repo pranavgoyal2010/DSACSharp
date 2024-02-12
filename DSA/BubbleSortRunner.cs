@@ -8,7 +8,7 @@ class BubbleSortRunner
 {
     //Following Main method is for running bubble sort
 
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         /*Console.WriteLine("Enter size of input array : ");
         int size = int.Parse(Console.ReadLine());
