@@ -6,7 +6,7 @@ namespace DSA;
 
 class InsertionSortRunner
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         //string[] words = {"hello", "how", "are", "you", "today", "evening", "it", "is", "sunny", "today"};
 
@@ -49,5 +49,12 @@ class InsertionSortRunner
         {
             Console.WriteLine(S.Sid + " " + S.Name + " " + S.Class + " " + S.Marks);
         }
+
+        char[] ch = {'Z', 'Y', 'X', 'W' };
+        InsertionSortGeneric<char> insertionSortGeneric3 = new InsertionSortGeneric<char>(ch);
+        insertionSortGeneric3.Sort();
+
+        foreach (char c in ch)
+            Console.WriteLine(c);
     }
 }
