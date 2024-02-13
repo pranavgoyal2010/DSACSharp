@@ -15,10 +15,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1332ba100c1651617bce1198de7ac5b06c1dce09")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cada1964ca298fa77d65defa2f4b56448b836a48")]
 >>>>>>> custom-queue
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11bb876a4ff852401d9f88c9aa9f39272e64d8e4")]
+>>>>>>> stack
 [assembly: System.Reflection.AssemblyProductAttribute("DSA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
