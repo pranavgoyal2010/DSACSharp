@@ -2,12 +2,12 @@
 
 namespace DSA;
 
-class Stack<T>
+class CustomStack<T>
 {
     private T[] array;
     private int top;
 
-    public Stack()
+    public CustomStack()
     {
         array = new T[10];
         top = -1;
@@ -79,7 +79,7 @@ class StackRunner
         Console.WriteLine("Current size of stack : " + stack.Size());*/
 
 
-        Stack<int> intStack = new Stack<int>();
+        CustomStack<int> intStack = new CustomStack<int>();
 
         Console.WriteLine("Testing stack of integers:");
         Console.WriteLine("Is stack empty? " + intStack.IsEmpty()); // True
@@ -114,7 +114,7 @@ class StackRunner
         Console.WriteLine();
 
         // Test stack of strings
-        Stack<string> stringStack = new Stack<string>();
+        CustomStack<string> stringStack = new CustomStack<string>();
 
         Console.WriteLine("Testing stack of strings:");
         Console.WriteLine("Is stack empty? " + stringStack.IsEmpty()); // True
