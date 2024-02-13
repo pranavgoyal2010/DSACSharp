@@ -2,7 +2,7 @@
 {
     class QueueBuiltIn
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Queue<int> queue = new Queue<int>();
 
