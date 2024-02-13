@@ -2,7 +2,7 @@
 
 class LinkedListBuiltIn
 {
-    static void Main()
+    static void Main1()
     {
         // Test case 1: Creating a LinkedList of integers
         LinkedList<int> list1 = new LinkedList<int>();
