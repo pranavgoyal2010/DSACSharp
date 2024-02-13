@@ -11,6 +11,13 @@ class Linkedlist<T>
         this.size = 0;
     }
 
+    public T GetHead()
+    {
+        if (this.head == null)
+            return default;
+        else
+            return this.head.Data;
+    }
     public void AddAt(T item, int index)
     {
         Node<T> newNode = new Node<T>(item, null);
@@ -63,6 +70,7 @@ class Linkedlist<T>
         if (this.head == null)
         {
             Console.WriteLine("Error: List is empty");
+            Console.WriteLine("Following line will return the default value of the data type with which this linkedlist is initialized.");
             return default;
         }
 
