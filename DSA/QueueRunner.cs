@@ -5,8 +5,8 @@ class QueueRunner
     static void Main1(string[] args)
     {
         // Test cases
-        Queue<int> intQueue = new Queue<int>();
-        Queue<string> stringQueue = new Queue<string>();
+        CustomQueue<int> intQueue = new CustomQueue<int>();
+        CustomQueue<string> stringQueue = new CustomQueue<string>();
 
         // Adding elements to intQueue
         intQueue.Push(10);

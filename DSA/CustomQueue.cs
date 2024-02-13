@@ -1,10 +1,10 @@
 ﻿namespace DSA;
 
-class Queue<T>
+class CustomQueue<T>
 {
     private Linkedlist<T> queue;
 
-    public Queue()
+    public CustomQueue()
     {
         queue = new Linkedlist<T>();
     }
