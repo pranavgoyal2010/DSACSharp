@@ -65,7 +65,7 @@ class Stack<T>
 
 class StackRunner
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         /*Stack<int> stack = new Stack<int>();
         stack.Peek();
