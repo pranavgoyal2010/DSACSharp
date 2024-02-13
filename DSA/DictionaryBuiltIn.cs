@@ -1,8 +1,9 @@
-﻿namespace DSA;
+﻿
+namespace DSA;
 
 class DictionaryBuiltIn
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         // Test case 1: Creating a dictionary with integer keys and string values
         Dictionary<int, string> dict1 = new Dictionary<int, string>();
