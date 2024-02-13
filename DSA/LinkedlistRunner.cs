@@ -2,7 +2,7 @@
 
 class LinkedlistRunner
 {
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         Linkedlist<int> intList = new Linkedlist<int>();
         intList.Add(10);
